@@ -58,7 +58,7 @@ function App() {
         <>
           <h1 className="city">{data.name}</h1>
           <div className="group">
-            <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="" />
+            <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="" />
             <h1>{data.weather[0].main}</h1>
           </div>
 
